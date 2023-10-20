@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: #fff;
+    overflow-x: hidden;
+}
+.cathead{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid red;
+}
+h1{
+    font-style: italic;
+    text-align: center;
+    border: 1px solid red;
+    padding: 20px 0px;
+    margin-top: 0%;
+    transform: rotate(360deg);
+}

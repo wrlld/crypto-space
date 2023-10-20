@@ -1,0 +1,2 @@
+write a function that checks if a word is an isogram.
+writes a function that takes an array of number 1-10 the even number first and odd number seconds.
