@@ -3,13 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>A Cat Head</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/charts.css/dist/charts.min.css">
+    <title>Crypto Space</title>
 </head>
 <body>
-    <h1>This is a cat head</h1>
-        <div class="cathead">
+    <nav class="navbar">
+        <h1>Crypto Market</h1>
+        <ul class="line">
+            <li><a href="#">Cryptocurrencies</a></li>
+            <li><a href="#">Exchanges</a></li>
+            <li><a href="#">Dapps</a></li>
+            <li><a href="#">Quote</a></li>
+            <li><a href="#">Watchlist</a></li>
+        </ul>
+        <div class="icons">
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
+    </nav>
+    <div class="main-container">
+        <div class="top-cont">
+            <p>Cryptocurrencies / Coins / <span>Ethereum</span></p>
+            <div class="click-cont">
+                <div class="click">
+                    <label for="buy-tag">
+                        <select name="buy" id="buy-tag">
+                            <option value="">Buy</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="click">
+                    <label for="exchange-tag">
+                        <select name="exchange" id="buy-tag">
+                            <option value="">Exchange</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="click">
+                    <label for="gaming-tag">
+                        <select name="gaming" id="buy-tag">
+                            <option value="">Gaming</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="click">
+                    <label for="earn-tag">
+                        <select name="earn" id="buy-tag">
+                            <option value="">Earn</option>
+                        </select>
+                    </label>
+                </div>
+            </div>    
+        </div><br>
+      <!--  -->
+        <div class="center-cont">
+            <div class="figures">
+                <div class="top-figures">
+                    <img src="/Etherum.png" alt="">
+                    <h2>Ethereum</h2>
+                    <span>#2</span>
+                </div>
+                <div id="awesome">
+                    <h1 id="number">$2,400.80</h1>
+                    <span id="icons">
+                        <i class="fa-solid fa-caret-up"></i>
+                        <p>0.50%</p>
+                    </span>
+                </div>
+                <h4 id="pag">Tags</h4>
+                <div class="pag">
+                    <p class="fresh">Mineable</p>
+                    <p class="fresh">Pow</p>
+                    <p class="fresh">Ethereum</p>
+                    <p class="fresh">Smart Contracts</p>
+                    <p id="view">View All</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="images">
+                <div class="images-middle">
+                    <div class="image-cont">
+                        <div class="top-image-cont">
+                            <img src="./SANSHU.jpg" alt="">
+                            <p>#2678</p>
+                        </div>
+                        <div class="center-image-cont">
+                            <h2>Sanshu Inu</h2>
+                            <span>Sanshu</span>
+                        </div>
+                    </div>
+                    <div class="image-cont">
+                        <div class="top-image-cont">
+                            <img src="./Coti.png" alt="">
+                            <p>#200</p>
+                        </div>
+                        <div class="center-image-cont">
+                            <h2>COTI</h2>
+                            <span>COTI</span>
+                        </div>
+                    </div>
+                    <div class="image-cont">
+                        <div class="top-image-cont">
+                            <img src="./Polygon.png" alt="">
+                            <p>#16</p>
+                        </div>
+                        <div class="center-image-cont">
+                            <h2>Polygon</h2>
+                            <span>Polygon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr-line">
+                    <hr id="hr1">
+                    <hr id="hr2">
+                </div>
+            </div>
+        </div>
+
+        <div class="market-cap-cont">
+            <div class="market-cap">
+                <div class="top-market-cap">
+                    <h2>Market Cap</h2>
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <div class="center-market-cap">
+                    <h1><span id="dollar">$</span>275,580,894</h1>
+                    <span class="color lemon">
+                        <i class="fa-solid fa-caret-up"></i>
+                        <p>0.50%</p>
+                    </span>
+                </div>
+            </div>
+            <div class="market-cap">
+                <div class="top-market-cap">
+                    <h2>Fully Diluted</h2>
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <div class="center-market-cap">
+                    <h1><span id="dollar">$</span>274,734,564</h1>
+                    <span class="color red">
+                        <i class="fa-solid fa-caret-down"></i>
+                        <p>0.75%</p>
+                    </span>
+                </div>
+            </div>
+            <div class="market-cap">
+                <div class="top-market-cap">
+                    <h2>Volume</h2>
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <div class="center-market-cap">
+                    <h1><span id="dollar">$</span>23,274,917</h1>
+                    <span class="color lemon">
+                        <i class="fa-solid fa-caret-up"></i>
+                        <p>8.75%</p>
+                    </span>
+                </div>
+            </div>
+            <div class="market-cap">
+                <div class="top-market-cap">
+                    <h2>Circulating supply</h2>
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <div class="center-market-cap">
+                    <h1>115,275,454<span id="dollar">ETH</span></h1>
+                    <p id="cap-pag">115,275,454</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="last-part">
+            <div class="last-first-part">
+                <nav class="underline">
+                    <ul>
+                        <li><a href="#" id="blue">Overview</a></li>
+                        <li><a href="#">Market</a></li>
+                        <li><a href="#">Wallets</a></li>
+                        <li><a href="#">Ratings</a></li>
+                        <li><a href="#">Analysis</a></li>
+                        <li><a href="#" id="hide">Price estimates</a></li>                    
+                    </ul>
+                    <div class="iconed">
+                        <div id="color"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></div>
+                        <div id="color"><i class="fa-solid fa-download"></i></div>
+                        <div id="color"><i class="fa-solid fa-ellipsis"></i></div>
+                    </div>
+                </nav>
+                <!--  -->
+                <div class="lasta">
+                    <div class="list-lasta lasta2">
+                        <div><p>Price</p></div>
+                        <p>Market Cap</p>
+                        <p>Trading</p>
+                    </div>
+                    <div class="list-lasta">
+                        <div><p>USD</p></div>
+                        <p>BTC</p>
+                    </div>
+                    <div class="list-lasta" id="hide">
+                        <p>Day</p>
+                        <div><p>Week</p></div>
+                        <p>Month</p>
+                    </div>
+                </div>
+                <div id="line-example-1"><table class="charts-css line hide-data"><caption> Line Example #1 </caption> <tbody><tr><td style="--start: 0.0; --end: 0.4;"><span class="data"> $ 40K </span></td></tr> <tr><td style="--start: 0.4; --end: 0.2;"><span class="data"> $ 20K </span></td></tr> <tr><td style="--start: 0.2; --end: 0.6;"><span class="data"> $ 60K </span></td></tr> <tr><td style="--start: 0.6; --end: 0.4;"><span class="data"> $ 40K </span></td></tr> <tr><td style="--start: 0.4; --end: 0.8;"><span class="data"> $ 80K </span></td></tr> <tr><td style="--start: 0.8; --end: 0.6;"><span class="data"> $ 60K </span></td></tr> <tr><td style="--start: 0.6; --end: 1.0;"><span class="data"> $ 100K </span></td></tr></tbody></table></div>
+                <hr style="color: white;">
+            <div class="text">
+                <div class="texter">12:00</div>
+                <div class="texter">13:00</div>
+                <div class="texter">14:00</div>
+                <div class="texter">15:00</div>
+                <div class="texter">16:00</div>
+            </div>
+
+            </div>
+            <div class="last-second-part">
+                <div class="top-last">
+                    <img src="/Etherum.png" alt="">
+                    <div>
+                        <span id="brown">ETH</span><br>
+                        <span>Price statistics</span>
+                    </div>
+                </div>
+                <div class="letter-div">
+                    <p>Price <span>$2,400.80</span></p>
+                    <p>Price Change<span class="lemon"><i class="fa-solid fa-caret-up"></i>0.50%</span></p>
+                    <p>24 high <span>2320.00</span></p>
+                    <p>24 low <span>2,450</span></p>
+                    <p>Volume <span>$2,678,686,906.20</span></p>
+                    <p>Dominance <span>18%</span></p>
+                    <p>Rank <span>#2</span></p>
+                    <p>Marketing cap <br>
+                        $220,403,489,950.05 <span class="red"><i class="fa-solid fa-caret-up"></i>0.50%</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="index.js"></script>
 </body>

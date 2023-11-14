@@ -1,0 +1,4 @@
+pop removes last element from an array.
+push adds a last element to an array
+shift removes first element from a string
+unshift add a first element to a string
