@@ -536,12 +536,10 @@ img{
     .underline{
         width: 100%;
         margin: 0px;
-        border: 1px solid red;
     }
     .underline ul{
         width: 90%;
         margin-left: 0!important;
-        border: 1px solid blue;
     }
     .underline ul li a, .list-lasta p{
         font-size: 8px;
@@ -550,7 +548,6 @@ img{
         flex-direction: column;
         margin-right: 0;
         width: 10%;
-        border: 2px solid brown;
     }
     #color{
         width: 30px;
@@ -558,7 +555,6 @@ img{
         border-radius: 50%;
         margin-top: 5px;
         font-size: 9px;
-        border: 1px solid yellow;
     }
     #hide{
         display: none;
