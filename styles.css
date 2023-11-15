@@ -531,15 +531,17 @@ img{
     .last-first-part{
         border-radius: 10px;
         padding: 10px 15px;
-        width: 100%;
+        width: 90%;
     }
     .underline{
         width: 100%;
         margin: 0px;
+        border: 1px solid red;
     }
     .underline ul{
         width: 90%;
         margin-left: 0!important;
+        border: 1px solid blue;
     }
     .underline ul li a, .list-lasta p{
         font-size: 8px;
@@ -548,6 +550,7 @@ img{
         flex-direction: column;
         margin-right: 0;
         width: 10%;
+        border: 2px solid brown;
     }
     #color{
         width: 30px;
@@ -555,6 +558,7 @@ img{
         border-radius: 50%;
         margin-top: 5px;
         font-size: 9px;
+        border: 1px solid yellow;
     }
     #hide{
         display: none;
@@ -571,7 +575,10 @@ img{
         border-radius: 15px;
     }
     .last-second-part{
-        width: 100%;
+        width: 90%;
         padding: 5px 15px;
+    }
+    #line-example-1 .line {
+        --aspect-ratio: 25 / 6;
     }
 }

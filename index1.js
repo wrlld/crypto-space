@@ -63,6 +63,22 @@ var power = function(base, exponent) {
      ;*/
 
 
-     //
+    //  function solution(str, ending){
+    //     var index = str.split("");
+    //     var index1 = ending.split(""); 
 
-                
+    //     const arr = index.filter(tally => /\a-z$/ == index1);
+    //     console.log(arr);
+    //  }
+    //  console.log(solution("abc", "bc"));
+
+
+
+                 
+
+    function solution( str, ending){
+        return str.endsWith(ending)
+    }
+    console.log(solution('abc', 'io'));
+
+    
